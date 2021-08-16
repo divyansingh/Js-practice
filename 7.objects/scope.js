@@ -66,3 +66,6 @@ freezeobjectrwithinojject.firstName = "Ved" //Update
 delete freezeobjectrwithinojject.city  //Delete
 console.log(freezeobjectrwithinojject) //Read
 
+// Object.freeze(freezeobjectrwithinojject.address)
+freezeobjectrwithinojject.address.country = "Australia"
+console.log(freezeobjectrwithinojject)
